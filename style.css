@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #001018;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* HEADER */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav a {
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFB703;
+}
+
+header h1 {
+    color: #FFB703;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 150px;
+}
+
+/* MAIN */
+.main--content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.maincontent--img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.maincontent--h1 {
+    font-size: 3rem;
+    color: #FFB703;
+}
+
+.text a {
+    color: #FFB703;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/* ABOUT */
+.about--content p {
+    text-align: center;
+    max-width: 50dvw;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 35px;
+}
+
+.about--content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #FFB703;
+}
+.about--content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#about {
+    margin-top: 150px;
+}
+
+/* SKILLS */
+#skills {
+    margin-top: 150px;
+}
+
+.skills--content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.skills--content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #FFB703;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #002c42;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 60px;
+    border-radius: 8px;
+}
+
+.fa-c {
+    color: #219EBC;
+}
+
+.fa-python {
+    color: #FFB703;
+}
+
+.fa-html5 {
+    color: rgb(236, 42, 42)
+}
+
+.fa-css3-alt {
+    color: #219EBC;
+}
+
+.fa-square-js {
+    color: #FFB703;
+}
+
+.fa-node-js {
+    color: rgb(0, 255, 0)
+}
+
+.fa-react {
+    color: #219EBC;
+}
+
+.exp {
+    width: 15px;
+}
+
+
+/* CONTACT */
+#contact {
+    margin: 150px 0;
+}
+
+.contact--content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact--content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #FFB703;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 35%;
+}
+
+.field input {
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2d414b;
+    transition: all 0.3s ease;
+}
+
+.field textarea {
+    height: 150px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #2d414b;
+    transition: all 0.3s ease;
+}
+
+.contact--content form button {
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #FFB703;
+    cursor: pointer;
+}
+
+.contact--content form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact--content form button:hover {
+    opacity: 0.9;
+}
+
+.field input:focus, .field textarea:focus {
+    border: 1px solid #aaa;
+}
